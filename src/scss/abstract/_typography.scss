@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+$font: 'Cabin', sans-serif;
+
+body {
+  font-family: font;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: $font;
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font;
+  font-weight: 500;
+}
+
+.button {
+  font-family: $font;
+  font-weight: 400;
+}

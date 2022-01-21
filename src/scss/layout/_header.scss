@@ -1,0 +1,49 @@
+.header {
+  background-color: #d8d7d7;
+  font-size: 1.5rem;
+
+  &__content {
+    display: flex;
+    font-size: 2rem;
+  }
+  &__data {
+    flex: 1 0 60%;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & > * {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__title {
+    font-size: 5rem;
+  }
+
+  &__list {
+    font-weight: 500;
+  }
+
+  &__list-item {
+    display: flex;
+    align-content: center;
+    &::before {
+      content: '';
+      display: inline-block;
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
+
+      background-image: url(/src/css/img/Checkmark.svg);
+      background-size: cover;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+.contact {
+  padding: 3rem 8rem;
+  &__socials {
+    display: flex;
+    align-items: center;
+  }
+  &__figure {
+    padding: 2rem;
+  }
+  &__account {
+    width: 100%;
+    display: inline-block;
+  }
+}

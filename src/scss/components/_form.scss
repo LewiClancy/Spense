@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  font-weight: inherit;
+
+  &__email {
+    margin-right: 2rem;
+    padding: 2rem;
+    border: 1px solid #aaa;
+    outline: none;
+    border-radius: 0.4em;
+
+    &::-webkit-input-placeholder {
+      color: #ccc;
+    }
+    &-webkit-input-placeholder {
+      color: #ccc;
+    }
+
+    &:focus {
+      transform: scale(1.05);
+    }
+
+    &:focus &::-webkit-input-placeholder {
+      color: rgb(196, 196, 196);
+    }
+  }
+}

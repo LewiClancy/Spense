@@ -1,0 +1,41 @@
+.footer {
+  background-color: black;
+  color: #c0c0c0;
+  font-size: 1.5rem;
+  padding: 10rem 5rem;
+
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 40% repeat(4, 1fr);
+  gap: 1rem;
+
+  & > * {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-left: 1rem;
+    }
+  }
+
+  &__main {
+    flex: 0 0 20%;
+    padding: 0 10rem;
+  }
+
+  &__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fefefe;
+  }
+
+  &__paragraph {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+  }
+
+  &__text {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+  }
+}

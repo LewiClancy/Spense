@@ -1,0 +1,28 @@
+.nav {
+  font-size: 2rem;
+  font-size: 600;
+
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  &__brand {
+    font-weight: 700;
+    flex: 0 0 20%;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 2rem;
+  }
+
+  &__login {
+    margin-right: 1em;
+  }
+}
